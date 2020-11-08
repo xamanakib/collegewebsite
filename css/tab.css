@@ -1,0 +1,61 @@
+/* Body  */
+
+
+
+/********************* navbar ***********************/
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searhbox{
+    padding: 0px;
+    padding-left: 0px;
+}
+
+
+/* ***********************Section Aside & Footer********************** */
+.container{
+    grid-template-areas: 
+    'navbar navbar navbar navbar navbar navbar navbar'
+    ' section section section section section section section '
+    'section2 section2 section2 section2 section2 section2 section2 '
+    'section03 section03 section03 section03 section03 section03 section03 '
+    'aside02 aside02 aside02 aside02 aside03 aside03 aside03 '
+    ' aside aside aside aside aside aside aside '
+    'section04 section04 section04 section04 section04 section04 section04 '
+    'section05 section05 section05 section05 section06 section06 section06  '
+    ' footer footer footer footer footer footer footer';
+    
+}
+
+/* ********************section01****************** */
+#home{
+    padding: 0px;
+}
+#hidden{
+     display: none;
+ } 
+/* ******************section03*********************** */
+.img_container img{
+    height: 220px;
+    width: 250px;
+   
+ 
+ }
+ /* *******************footer***************** */
+ .foot_text{
+    flex-direction: column;
+    margin: 0px;
+}
+.footer_dev{
+    text-align: center;
+}
+.f_none{
+    display: none;
+}
+.f_none2{
+    display: inline;
+}

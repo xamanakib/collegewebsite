@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/icon.jpg" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&family=Bree+Serif&family=Montserrat:wght@600&family=Mukta&display=swap"
+        rel="stylesheet">
+    <meta name="description" content="This is a design of a College website Home Page which I created for Inter College Website Development Competition 2020 ">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="only screen and (min-width:768px) and (max-width: 991px)" href="css/tab.css">
+    <link rel="stylesheet" media="only screen and (min-width:319px) and (max-width: 767px) " href="css/phone.css">
+    <link rel="stylesheet" media="only screen and (max-width: 319px)" href="css/minidevice.css">
+    <title>College Website</title>
+    <style>
+        @media only screen and (min-width:992px) {
+            #theSidenav {
+                display: none;
+            }
+
+            #home::before {
+                
+                height: 124%;
+                
+            }
+        }
+
+    
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <nav class="bdr">
+                <div class="list">
+                    <div class="logohb">
+                        <div class="logo">
+                            <a href="#"><img src="img/logo.jpg" alt=""></a>
+                        </div>
+                        <span onclick="clickNav()" class="hb">
+                            <div id="main">
+                                <div id="hamburger"></div>
+                                <div id="hamburger"></div>
+                                <div id="hamburger"></div>
+
+                            </div>
+                        </span>
+                    </div>
+
+                    <ul id="goto">
+                        <li><a id="current" href="#">Home</a></li>
+                        <li><a href="#contact-box">Contact</a></li>
+                        <li><a href="#GO">About</a></li>
+                        <li><a href="#prices">Fee</a></li>
+                    </ul>
+                    <div class="searhbox">
+                        <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+                            <input type="text" placeholder="Search.." name="search2">
+
+                        </form>
+                    </div>
+
+                    <div id="theSidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                            style="text-decoration: none !important;">&laquo;</a>
+                        <a href="#" id="current">Home</a>
+                        <a href="#GO">About</a>
+                        <a href="#contact-box">Contact</a>
+                        <a href="#prices">Fee</a>
+                    </div>
+
+
+
+
+
+
+                </div>
+            </nav>
+        </div>
+
+        <section>
+            <div id="home">
+                <p id="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio similique distinctio
+                    corporis magni. Ratione iusto vitae eligendi nesciunt! Fugiat, delectus, amet </p>
+
+                <h1 class="h-primary">
+                    Welcome to College Website</h1>
+
+                <p> An imaginative institution where you can learn things practically with many facilities </p>
+                <p>Discipline & Responsibility are the key toward achievement </p>
+
+                <div class="hb_area" style="display: flex; justify-content:space-around;">
+                    <div class="hbtn"><button class="btn">Admission</button></div>
+                    <div class="hbtn"><a href="#aside02"><button class="btn" id="btn2" style="background-color: #1f1e1ee6;
+                        color: #dd1515;">Login</button></a></div>
+                </div>
+
+                <p id="hidden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi perferendis vel animi id
+                    ullam quibusdam explicabo reprehenderit placeat, tempora consequuntur a provident ea vero facilis
+                    illum. Ea voluptate explicabo numquam facere, saepe necessitatibus praesentium optio harum
+                    doloremque voluptatem ut veritatis libero, accusantium minus molestiae mollitia! Inventore
+                    consequuntur velit illo est amet, illum quam, nam molestiae minima vitae cum sapiente, quas modi
+                    enim repudiandae tempora cumque. Expedita doloremque sed unde recusandae itaque eum placeat
+                    explicabo in fugiat laudantium enim alias debitis cum, possimus natus autem, officia dolores beatae.
+                    Eos, neque repellat, corporis quidem quos magni maxime saepe minus perspiciatis porro quisquam?</p>
+            </div>
+        </section>
+        <section class="s02" id="prices">
+            <h1 class="primary-center">Admission Fee</h1>
+            <div class="Fee_space">
+                <div class="Fee_column">
+                    <ul class="price">
+                        <li class="header">Science</li>
+                        <li class="violet2">৳ 1920 / month</li>
+                        <li>&rarr; Science Lab</li>
+                        <li>&rarr; E-Library</li>
+                        <li>&rarr; Science Club</li>
+                        <li>&rarr; Computer Lab</li>
+                        <li class="voiolet"><a href="#" class="button">Take Admission</a></li>
+                    </ul>
+                </div>
+
+                <div class="Fee_column">
+                    <ul class="price">
+                        <li class="header" style="background-color:#dd1515b0">Scholarship</li>
+                        <li class="violet2">৳ 00 / month</li>
+                        <li>&rarr; Allowances ৳1500</li>
+                        <li>&rarr; Admission Free</li>
+                        <li>&rarr; Free Residency</li>
+                        <li>&rarr; Free Transportation</li>
+                        <li class="voiolet"><a href="#" class="button">Take Admission</a></li>
+                    </ul>
+                </div>
+
+                <div class="Fee_column">
+                    <ul class="price">
+                        <li class="header">Commerce</li>
+                        <li class="violet2">৳ 1580/ month</li>
+                        <li>&rarr; Business Club</li>
+                        <li>&rarr; Research Lab</li>
+                        <li>&rarr; E-Facilities</li>
+                        <li>&rarr; Linguistic Club</li>
+                        <li class="voiolet"><a href="#" class="button">Take Admission</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec03" class="bdr">
+            <div class="about_container">
+                <h1 class="primary-center" id="GO">
+                    About
+                </h1>
+
+                <p>This is a College with so much facilities established in 1996.We are dedicated to providing an educational environment focused on student learning and delivered by qualified faculty</p>
+
+                <div class="about01">
+                    <div class="image-w-cap">
+                        <div class="img_container">
+                            <img src="img/College campus.jpg" alt="">
+                        </div>
+                        <div class="img_caption">
+                            Biggest College Campus
+                        </div>
+                    </div>
+                    <div class="image-w-cap">
+                        <div class="img_container">
+                            <img src="img/Library.jpg" alt="">
+                        </div>
+                        <div class="img_caption">
+                            Library Facility
+                        </div>
+                    </div>
+                    <div class="image-w-cap">
+                        <div class="img_container">
+                            <img src="img/Computer Lab.jpg" alt="">
+                        </div>
+                        <div class="img_caption">
+                            Digital Computer Lab
+                        </div>
+                    </div>
+                </div>
+                <div class="about02">
+                    <div class="image-w-cap">
+                        <div class="img_container">
+                            <img src="img/Science lab.jpg" alt="">
+                        </div>
+                        <div class="img_caption">
+                            Science Lab
+                        </div>
+                    </div>
+                    <div class="image-w-cap">
+                        <div class="img_container">
+                            <img src="img/Business club.jpg" alt="">
+                        </div>
+                        <div class="img_caption">
+                            Business Club
+                        </div>
+                    </div>
+                    <div class="image-w-cap">
+                        <div class="img_container">
+                            <img src="img/Gym.jpg" alt="">
+                        </div>
+                        <div class="img_caption">
+                            Gym
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="width: 100%; color: red;">
+        </section>
+        <aside class="bdr" id="aside01">
+            <div class="login_container">
+                <h1 class="primary-center">Log In</h1>
+                <div id="login-area">
+                    <form action="#">
+                        <div class="logininfo">
+                            <div class="form-group">
+                                <label for="Email">Email:</label> <br>
+                                <input class="infobox" type="Email" name="Email" id="Email"
+                                    placeholder="Enter Your Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="Password">Password: </label> <br>
+                                <input class="infobox" type="password" name="Password" id="Password"
+                                    placeholder="Enter Your Password"> <br>
+                                <a href="#">Forgot Password?</a>
+                            </div>
+                            <div>
+                                <button class="btn" id="btn3">Login</button>
+                                <p id="signup">Not a member yet? <a href="#">Sign Up</a> </p>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                    </form>
+                </div>
+            </div>
+
+        </aside>
+        <aside class="bdr" id="aside02">
+            <div class="principal_container">
+                <h1>Principal</h1>
+                <div class="principal_img">
+                    <img src="img/principal photo.jpg" alt="principal of college Website">
+                </div>
+
+                <div class="principal_text">
+                    Professor <br> Md.Akibuzzaman Akib
+                </div>
+            </div>
+        </aside>
+        <aside class="bdr" id="aside03">
+            <div class="principal_container">
+                <h1>Vice Principal</h1>
+                <div class="principal_img">
+                    <img src="img/Vice principal photo.jpg" alt="Vice principal of college Website">
+                </div>
+
+                <div class="principal_text">
+                    Professor <br> Mahmud Hossain Riad
+                </div>
+            </div>
+        </aside>
+        <section id="sec04">
+            <h1 class="primary-center">Contact</h1>
+
+        </section>
+
+        <section id="sec05">
+            <div class="contact_container">
+
+                <div id="contact-box">
+                    <form action="mailto:kdakib13@gmail.com" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="name">Name: </label>
+                            <input type="text" name="name" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email: </label>
+                            <input type="email" name="name" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number: </label>
+                            <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message: </label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <button class="cbtn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec06">
+            <div class="contact_num">
+                <div class="s_icon" id="phn">
+                    <a href="tel:02989xxxx"> <img src="img/phone.png" alt=""><span>989xxxx</span> </a>
+                </div>
+                <div class="s_icon" id="phn">
+                    <a href="tel:017xxxxxxxx"> <img src="img/phone.png" alt=""><span>017xxxxxxxx</span> </a>
+                </div>
+                <div class="s_icon" id="phn">
+                    <a href="mailto:kdakib13@gmail.com"> <img src="img/mail.png" alt=""><span>Send Mail</span> </a>
+                </div>
+                <div class="s_icon" id="fb">
+                    <a href=""> <img src="img/fb.png" alt=""><span>Facebook</span> </a>
+                </div>
+                <div class="s_icon" id="linkedin">
+                    <a href=""> <img src="img/linkedin.png" alt=""><span> LinkedIn</span></a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <footer class="bdr">
+            <div class="foot_text">
+                <div class="footer_dev"> copyright &copy; 2020 <i>College Website</i> ,All Rights Reserved.</div>
+                <div class="foot_icon">
+                    <div class="f_none">Developed by Akibuzzaman </div>
+                    <div class="f_none2">—&commat;Akib </div>
+
+                    <div class="fi"> <a target="_blank" href="https://www.facebook.com/xamanakib"><img src="img/fb.png"
+                                alt=""></a> </div>
+                    <div class="fi"> <a target="_blank" href="https://www.instagram.com/kdakib13/"><img src="img/insta.png" alt=""></a>
+                    </div>
+                    <div class="fi"> <a target="_blank" href="mailto:kdakib13@gmail.com"><img src="img/mail.png"
+                                alt=""></a> </div>
+                    <div class="fi"> <a target="_blank" href="https://www.linkedin.com/in/zaman-akib/"><img
+                                src="img/linkedin.png" alt=""></a> </div>
+                </div>
+            </div>
+            <a href="#" class="end" style="text-decoration: underline;"> <button
+                    style="position: fixed; bottom: 82px; right: -11px; font-weight: bold;font-size: .85rem; color: black;">
+                    &uArr; Top </button></a>
+        </footer>
+    </div>
+
+     <!-- ***************** javascript ********************* -->
+
+    <script>
+        function clickNav() {
+            document.getElementById("theSidenav").style.width = "100%";
+            document.getElementById("theSidenav").style.height = "40%";
+        }
+
+        function closeNav() {
+            document.getElementById("theSidenav").style.width = "0";
+        }
+    </script>
+
+</body>
+
+</html>

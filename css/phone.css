@@ -1,0 +1,151 @@
+
+/***************** navbar *********************/
+.list{
+    display: flex;
+    flex-direction: column;
+    
+}
+.list ul li a{
+    padding: 3px;
+    margin: 15px;   
+}
+.searhbox{
+    padding: 0px;
+    padding-left: 0px;
+}
+.hb{
+    display: inline;
+}
+#goto{
+    display: none;
+}
+.logohb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+span{
+    position: absolute;
+    right: 10px;
+}
+
+
+
+/* *******************Section Aside & Footer**********************  */
+.container{
+    grid-template-areas: 
+    'navbar navbar navbar navbar navbar navbar navbar'
+    ' section section section section section section section '
+    'section2 section2 section2 section2 section2 section2 section2 '
+    'section03 section03 section03 section03 section03 section03 section03 '
+    'aside02 aside02 aside02 aside02 aside03 aside03 aside03 '
+    ' aside aside aside aside aside aside aside '
+    'section04 section04 section04 section04 section04 section04 section04 '
+    'section05 section05 section05 section05 section05 section05 section05 '
+    'section06 section06 section06 section06 section06 section06 section06 '
+    ' footer footer footer footer footer footer footer';
+    
+}
+
+/* ************* section **************** */
+#home{
+    padding: 0px ;
+    margin: 0px;
+}
+#home h1 {
+    font-size: 36px;
+    margin: 0px;
+}
+#home p {
+    font-size: 1.35rem;
+    
+}
+/* ************************section 02**************** */
+.Fee_column {
+    
+   padding-top: 15px;
+   width: 80%;
+   margin: auto;
+   
+   
+  }
+
+.Fee_space{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* *********************section03************************************* */
+.about_container{
+    margin-bottom: 50px;
+}
+.about01{
+    flex-direction: column;
+}
+.about02{
+    flex-direction: column;
+}
+.about_container p {
+    margin: 0px;
+}
+.img_container{
+    width: 300px;
+    margin: auto;
+}
+.img_container img{
+    height: 250px;
+    width: 300px;
+   
+ 
+ }
+/* *************************section04************************ */
+#sec04 h1 {
+    margin-top: 25px;
+}
+
+
+
+
+/* ***********************Aside 02 & 03 *********************** */
+.principal_img img{
+    height: 150px;
+    width: 150px;
+    
+}
+
+/* *********************footer********************** */
+.foot_text{
+    flex-direction: column;
+    margin: 0px;
+}
+.footer_dev{
+    text-align: center;
+}
+.f_none{
+    display: none;
+}
+.f_none2{
+    display: inline;
+}
+/* *************************Utility Classes*************************** */
+.primary-center{
+    font-size: 2.8rem;
+    
+}
+#btn3{
+    width: 180px;
+    height: 40px;
+}
+#hidden{
+    display: none;
+}
+
+.btn {
+    height: 47px;
+    width: 108px;
+    border-radius: 9px;
+    background-color: #dd1515;
+    font-size: 20px;
+    font-family: 'Bree Serif';
+    margin: 5px;
+}
